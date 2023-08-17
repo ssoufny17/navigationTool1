@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C233E25F2A8E5ABE00C16FB8 /* McDonaldsFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C233E25E2A8E5ABE00C16FB8 /* McDonaldsFilter.swift */; };
+		C2C788802A8E6B2500BA37E1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C7887F2A8E6B2500BA37E1 /* MainView.swift */; };
+		C2C788832A8E775600BA37E1 /* League-Gothic in Resources */ = {isa = PBXBuildFile; fileRef = C2C788822A8E775600BA37E1 /* League-Gothic */; };
 		C2FF9BD22A8D8EBA009F1747 /* navigationToolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF9BD12A8D8EBA009F1747 /* navigationToolApp.swift */; };
 		C2FF9BD42A8D8EBA009F1747 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF9BD32A8D8EBA009F1747 /* ContentView.swift */; };
 		C2FF9BD62A8D8EBB009F1747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FF9BD52A8D8EBB009F1747 /* Assets.xcassets */; };
@@ -14,6 +17,10 @@
 		C2FF9BE32A8D8EBB009F1747 /* navigationToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF9BE22A8D8EBB009F1747 /* navigationToolTests.swift */; };
 		C2FF9BED2A8D8EBB009F1747 /* navigationToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF9BEC2A8D8EBB009F1747 /* navigationToolUITests.swift */; };
 		C2FF9BEF2A8D8EBB009F1747 /* navigationToolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF9BEE2A8D8EBB009F1747 /* navigationToolUITestsLaunchTests.swift */; };
+		C2FF9BFE2A8D9211009F1747 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF9BFD2A8D9211009F1747 /* FavoriteView.swift */; };
+		C2FF9C002A8D9260009F1747 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF9BFF2A8D9260009F1747 /* SearchView.swift */; };
+		C2FF9C022A8D9280009F1747 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF9C012A8D9280009F1747 /* MapView.swift */; };
+		C2FF9C042A8D9758009F1747 /* FilteredOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF9C032A8D9758009F1747 /* FilteredOptionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C233E25E2A8E5ABE00C16FB8 /* McDonaldsFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McDonaldsFilter.swift; sourceTree = "<group>"; };
+		C2C7887F2A8E6B2500BA37E1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C2C788822A8E775600BA37E1 /* League-Gothic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "League-Gothic"; sourceTree = "<group>"; };
+		C2C788842A8E779B00BA37E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C2FF9BCE2A8D8EBA009F1747 /* navigationTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navigationTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FF9BD12A8D8EBA009F1747 /* navigationToolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationToolApp.swift; sourceTree = "<group>"; };
 		C2FF9BD32A8D8EBA009F1747 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +55,10 @@
 		C2FF9BE82A8D8EBB009F1747 /* navigationToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navigationToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FF9BEC2A8D8EBB009F1747 /* navigationToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationToolUITests.swift; sourceTree = "<group>"; };
 		C2FF9BEE2A8D8EBB009F1747 /* navigationToolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationToolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C2FF9BFD2A8D9211009F1747 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		C2FF9BFF2A8D9260009F1747 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		C2FF9C012A8D9280009F1747 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = "../../../../Users/yasminesoufny/Dropbox (Phillips Exeter)/navigationTool/MapView.swift"; sourceTree = DEVELOPER_DIR; };
+		C2FF9C032A8D9758009F1747 /* FilteredOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredOptionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +86,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2C788812A8E76FA00BA37E1 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C2C788822A8E775600BA37E1 /* League-Gothic */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		C2FF9BC52A8D8EBA009F1747 = {
 			isa = PBXGroup;
 			children = (
+				C2C788812A8E76FA00BA37E1 /* fonts */,
+				C2C7887F2A8E6B2500BA37E1 /* MainView.swift */,
+				C2FF9BD12A8D8EBA009F1747 /* navigationToolApp.swift */,
+				C233E25E2A8E5ABE00C16FB8 /* McDonaldsFilter.swift */,
+				C2FF9C032A8D9758009F1747 /* FilteredOptionsView.swift */,
+				C2FF9C012A8D9280009F1747 /* MapView.swift */,
+				C2FF9BFF2A8D9260009F1747 /* SearchView.swift */,
+				C2FF9BFD2A8D9211009F1747 /* FavoriteView.swift */,
+				C2FF9BD32A8D8EBA009F1747 /* ContentView.swift */,
 				C2FF9BD02A8D8EBA009F1747 /* navigationTool */,
 				C2FF9BE12A8D8EBB009F1747 /* navigationToolTests */,
 				C2FF9BEB2A8D8EBB009F1747 /* navigationToolUITests */,
@@ -94,8 +126,7 @@
 		C2FF9BD02A8D8EBA009F1747 /* navigationTool */ = {
 			isa = PBXGroup;
 			children = (
-				C2FF9BD12A8D8EBA009F1747 /* navigationToolApp.swift */,
-				C2FF9BD32A8D8EBA009F1747 /* ContentView.swift */,
+				C2C788842A8E779B00BA37E1 /* Info.plist */,
 				C2FF9BD52A8D8EBB009F1747 /* Assets.xcassets */,
 				C2FF9BD72A8D8EBB009F1747 /* Preview Content */,
 			);
@@ -231,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2C788832A8E775600BA37E1 /* League-Gothic in Resources */,
 				C2FF9BD92A8D8EBB009F1747 /* Preview Assets.xcassets in Resources */,
 				C2FF9BD62A8D8EBB009F1747 /* Assets.xcassets in Resources */,
 			);
@@ -257,7 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2FF9C002A8D9260009F1747 /* SearchView.swift in Sources */,
+				C2C788802A8E6B2500BA37E1 /* MainView.swift in Sources */,
+				C2FF9C022A8D9280009F1747 /* MapView.swift in Sources */,
+				C2FF9BFE2A8D9211009F1747 /* FavoriteView.swift in Sources */,
+				C233E25F2A8E5ABE00C16FB8 /* McDonaldsFilter.swift in Sources */,
 				C2FF9BD42A8D8EBA009F1747 /* ContentView.swift in Sources */,
+				C2FF9C042A8D9758009F1747 /* FilteredOptionsView.swift in Sources */,
 				C2FF9BD22A8D8EBA009F1747 /* navigationToolApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,8 +455,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"navigationTool/Preview Content\"";
+				DEVELOPMENT_TEAM = BYC854H746;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = navigationTool/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -445,8 +485,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"navigationTool/Preview Content\"";
+				DEVELOPMENT_TEAM = BYC854H746;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = navigationTool/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
