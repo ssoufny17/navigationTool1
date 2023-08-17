@@ -38,7 +38,7 @@ struct SearchView: View {
                                 }
                                   .buttonStyle(.borderedProminent)
                                 .tint(Color(red: 0.592, green: 0.83, blue: 0.3))
-                                .navigationBarBackButtonHidden(true)
+                                .navigationBarBackButtonHidden(false)
                                 
                                 
                             }

@@ -34,6 +34,12 @@ struct ContentView: View {
                                 .padding()
                         }
                         
+                        Image("cava")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .cornerRadius(20)
+                            .frame(width: 150, height: 150)
+                        
                         .toolbar {
                             ToolbarItemGroup(placement: .bottomBar) {
                                 Spacer()
